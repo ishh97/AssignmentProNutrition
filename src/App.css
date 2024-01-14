@@ -1,0 +1,116 @@
+/* App.css */
+.App {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  
+  .search{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .food_images{
+    width: 150px;
+  }
+  
+  .food-container {
+      width: 50vw;
+  }
+  
+  .has-addons{
+    display: flex;
+  }
+  
+  .box {
+    display: flex;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .media {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  
+  .selected-foods {
+    margin-top: 20px;
+  }
+  
+  .selected-foods h2 {
+    font-size: 1.4rem;
+    margin: 10px;
+  }
+  
+  .selected-foods ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .selected-foods li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .selected-foods button {
+    margin-left: 10px;
+    background:#ff6347 ;
+    border: 1px solid black;
+    color: white;
+    height: 30px;
+  }
+  
+  /* Search.css */
+  .search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+    height: 30px;
+  }
+  
+  .search-bar button {
+    padding: 8px 12px;
+    background-color: #1e0656;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  form{
+    margin-top: 30px;
+    justify-content: center;
+  }
+  
+  /* FoodBox.css */
+  .image {
+    margin: 0;
+  }
+  
+  .input {
+    width: 120px;
+    height: 20px ;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid black;
+  }
+  
+  .button.is-info {
+    background-color: #1e0656;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    border-radius: 0 5px 5px 0;
+  }
